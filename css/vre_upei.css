@@ -45,7 +45,8 @@ div#block-islandora-solr-simple input#edit-submit { height: 31px; border: 1px so
  =            UPEI Footer            =
  ===================================*/
  
-.bottom-links { display: none; }
+.bottom-links { display: none;}
+.bottom-links ul { border-left: 1px solid #C3C3C3;}
 .socialmedia { margin: 10px 0; }
 div#footer-wrapper { background: #333; }
 .upei-footer { font-size: 13px; }
