@@ -7,6 +7,15 @@
  * remember to update the name in the info file
  * as well.
  */
+ /*=====================================
+ =            general stuff            =
+ =====================================*/
+ 
+ul.primary li a { font-weight: normal; }
+ 
+ /*-----  End of general stuff  ------*/
+ 
+ 
 
  /*=================================
  =            header stuff            =
@@ -15,31 +24,39 @@
 #logo { border-right: 1px solid #ccc; margin-right: 18px; }
 #name-and-slogan { padding-top: 5px; }
 #site-name, #site-slogan { display: block; line-height: 1; padding-top: 5px; }
+#branding { margin: 0px; }/* this needs to be adjusted depending on the menus ie: add margin if the menus are gone */
+
 
 /*==========  search box when in header block  ==========*/
 
 .region-header div#block-islandora-solr-simple { margin-top: 26px; }
+div#block-islandora-solr-simple input#edit-islandora-simple-search-query { border: 1px solid rgb(210, 210, 210); font-size: 14px; padding: 6px; }
+div#block-islandora-solr-simple input#edit-submit { height: 31px; border: 1px solid rgb(210, 210, 210); }
+
+/*==========  menu bar  ==========*/
+
+#menu-bar { border-radius: 4px; }
 
  /*-----  End of header stuff  ------*/
+
 
 
  /*===================================
  =            UPEI Footer            =
  ===================================*/
  
- .bottom-links { display: none; }
+.bottom-links { display: none; }
 .socialmedia { margin: 10px 0; }
 div#footer-wrapper { background: #333; }
-.upei-footer a { color: green; }
-.upei-footer h2 { font-size: 20px; color: #fff; }
-.upei-footer .bottom-links a { color: #ccc; }
-.links-last li a { color: #ccc; }
-.upei-footer .links-last, .upei-footer .links-last a { color: #ccc; }
 .upei-footer { font-size: 13px; }
-.bottom-links li { line-height: 142%; }
+.upei-footer h2 { font-size: 20px; color: #fff; font-weight: normal;}
+.upei-footer a { color: #ccc; }
+.upei-footer a:hover { color: rgb(139, 31, 3); }
+.upei-footer .links-last, .upei-footer .links-last a { color: #ccc; }
+.upei-footer li { line-height: 142%; }
 .upei-footer .address { color: #fff; }
-.upei-footer ul li.leaf { list-style-image: none; list-style-type: none; margin: 0px; }
-.upei-footer ul { margin: 0px; }
+.upei-footer ul.menu li.leaf { list-style-image: none; list-style-type: none; margin-left: 5px; }
+.upei-footer ul.menu { padding:0px; margin: 0px; }
 
 @media (min-width:600px) {
   div#links-section { overflow: hidden; *zoom: 1; }
