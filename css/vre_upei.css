@@ -36,7 +36,18 @@ div#block-islandora-solr-simple input#edit-submit { height: 31px; border: 1px so
 /*==========  menu bar  ==========*/
 
 #menu-bar { border-radius: 4px; }
-
+div#menu-wrapper {
+    border-radius: 4px;
+}
+#menu-bar a:first-child:hover {
+	border-radius: 4px 0 0 4px;
+}
+#menu-bar li.first:hover {
+    border-radius: 4px;
+}
+#menu-bar a.active {
+color: rgb(247, 183, 81);
+}
  /*-----  End of header stuff  ------*/
 
 
@@ -52,7 +63,7 @@ div#footer-wrapper { background: #333; }
 .upei-footer { font-size: 13px; }
 .upei-footer h2 { font-size: 20px; color: #fff; font-weight: normal;}
 .upei-footer a { color: #ccc; }
-.upei-footer a:hover { color: rgb(139, 31, 3); }
+.upei-footer a:hover { color: rgb(247, 183, 81); }
 .upei-footer .links-last, .upei-footer .links-last a { color: #ccc; }
 .upei-footer li { line-height: 142%; }
 .upei-footer .address { color: #fff; }
