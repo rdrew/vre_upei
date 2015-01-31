@@ -31,3 +31,8 @@ table.views-view-grid thead tr {
   padding-left: 0;
   padding-right: 0;
 }
+#logo {
+border-right: 1px solid #ccc;
+margin-right: 18px;
+padding-right: 18px;
+}
